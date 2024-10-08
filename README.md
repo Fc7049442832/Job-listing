@@ -51,6 +51,9 @@ Step - 1. Clone the repository:
  cmd : composer install
  
  ## Set up the database:
+MySql Upload Database file (file Name : job-listing.sql)
+
+OR
 
 Create a new database for the application in MySQL (or your chosen database).
 Update your .env file with the database connection details:
@@ -62,6 +65,7 @@ makefile
         DB_DATABASE= Job-listing
         DB_USERNAME= root
         DB_PASSWORD= 
+        
 ## Run the migrations: 
 Apply the database migrations:
 
