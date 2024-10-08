@@ -40,6 +40,7 @@ Before you begin, ensure you have met the following requirements:
 Follow these steps to set up the project locally:
 
 Step - 1. Clone the repository:
+
    cmd : git clone https://github.com/Fc7049442832/job-listing.git
    
    cmd : cd job-listing
@@ -62,9 +63,9 @@ makefile
         DB_USERNAME= root
         DB_PASSWORD= 
 ## Run the migrations: 
-   Apply the database migrations:
+Apply the database migrations:
 
-  cmd : php artisan migrate
+    cmd : php artisan migrate
   
 ## Install front-end dependencies (optional): 
 If your application uses front-end assets, install the Node.js dependencies:
