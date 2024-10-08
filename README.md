@@ -41,10 +41,12 @@ Follow these steps to set up the project locally:
 
 Step - 1. Clone the repository:
    cmd : git clone https://github.com/Fc7049442832/job-listing.git
+   
    cmd : cd job-listing
    
 ## Install the dependencies
  Run the following command to install all the PHP dependencies:
+ 
  cmd : composer install
  
  ## Set up the database:
@@ -61,13 +63,17 @@ makefile
         DB_PASSWORD= 
 ## Run the migrations: 
    Apply the database migrations:
+
   cmd : php artisan migrate
   
 ## Install front-end dependencies (optional): 
 If your application uses front-end assets, install the Node.js dependencies:
+
     cmd : npm install
+    
 ## Compile front-end assets (optional): 
 If applicable, compile your front-end assets:
+
     cmd : npm run dev
 
 ## Running the Application
